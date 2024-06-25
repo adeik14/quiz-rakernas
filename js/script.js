@@ -20,14 +20,14 @@ const quizData = [
     answer: 'Review ketepatan',
   },
   {
-    question: 'kode diagnosa untuk abortus iminent adalah?',
+    question: 'kode diagnosa untuk blight ovum adalah?',
     options: [
       'O20.0',
       'O20.9',
       'O02.0',
       'O06.4',
     ],
-    answer: 'O20.0',
+    answer: 'O02.0',
   },
   {
     question: 'Suatu review pengisian RM yang berkaitan dengan kekonsistenan isi dan penegasannya merupakan bukti bahwa RM tersebut akurat dan lengkap adalah?',
@@ -98,6 +98,62 @@ const quizData = [
     ],
     answer: 'Tenaga yang bekerja sesuai kebutuhan dan klasifikasinya',
   },
+
+  {
+    question: 'Setiap lembaran dari Rekam Medis harus di absahkan (autentikasi) oleh …..',
+    options: [
+      'Yang melengkapi lembaran tersebut',
+      'Penanggungjawab lembaran tersebut',
+      'Tim verifikasir',
+      'Kepala Rekam Medis',
+    ],
+    answer: 'Penanggungjawab lembaran tersebut',
+  },
+
+  {
+    question: 'Hybrid Health Record merupakan RM yang berisi ....',
+    options: [
+      'Rekaman yang tertulis',
+      'Rekaman berbasis elektronik',
+      'Rekaman baik yang tertulis maupun yang elektronik',
+      'Rekaman baik yang tertulis maupun berbentuk gambar',
+    ],
+    answer: 'Rekaman baik yang tertulis maupun yang elektronik',
+  },
+
+  {
+    question: 'Rekam Medis pasien yang dikirim ke ruang rawat digunakan oleh pemberi pelayanan selama pasien dirawat. Selesainya perawatan RM pasien dikembalikan dalam 24 jam setelah pulang . Hal ini tepatnya dikatakan memiliki kriteria ....',
+    options: [
+      'Dapat dibaca /Legible',
+      'Dapat Dipercaya /Reliable',
+      'Tepat /Precise',
+      'Tepat waktu/Timely',
+    ],
+    answer: 'Tepat waktu/Timely',
+  },
+
+  {
+    question: 'Satellite ambulatory care unit merupakan pelayanan ....',
+    options: [
+      'Unit rawat jalan, cabang dari sebuah rumah sakit',
+      'Unit penunjang diagnostik',
+      'Unit rawat jalan di daerah pinggiran',
+      'Poliklinik swasta yang berdiri sendiri',
+    ],
+    answer: 'Unit rawat jalan, cabang dari sebuah rumah sakit',
+  },
+
+  {
+    question: 'Waktu pelaksanaan audit pendokumentasian rekam medis juga tergantung dari tipe rumah sakit dan pelaksanaannya dilakukan oleh Profesional Perekam Medis dan Informasi Kesehatan yang mempunyai kompetensi khusus agar hasilnya tepat dan dapat dipakai untuk pimpinan dalam menjaga mutu pelayanan. Untuk rumah sakit acute care pelaksanaannya secara .…',
+    options: [
+      'Retrospective Analysis (RA)',
+      'Concurrent Analysis (CA)',
+      'RA dan CA',
+      'Setiap saat ada waktu',
+    ],
+    answer: 'Retrospective Analysis (RA)',
+  },
+  
 ];
 
 const quizContainer = document.getElementById('quiz');
@@ -179,7 +235,7 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!`;
+  resultContainer.innerHTML = `Nilai anda adalah ${score} dari ${quizData.length}!`;
 }
 
 function retryQuiz() {
