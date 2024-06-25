@@ -1,6 +1,6 @@
 const quizData = [
   {
-    question: 'Sumber hukum dibedakan ke dalam sumber hukum materiil dan formal. Manakah yang termasuk sumber hukum formal?',
+    question: 'Sumber hukum dibedakan ke dalam sumber hukum materil dan formal. Manakah yang termasuk sumber hukum formal?',
     options: ['Yurisprudensi', 'Rekam medis', 'Saksi ahli', 'Informed consent'],
     answer: 'Yurisprudensi',
   },
@@ -55,7 +55,7 @@ const quizData = [
       'Pasien',
       'Faskes',
       'Dokter',
-      'Allah SWT',
+      'Pemerintah',
     ],
     answer: 'Faskes',
   },
