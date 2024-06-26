@@ -72,7 +72,7 @@ const quizData = [
   },
 
   {
-    question: '15.	Penyimpanan data rekam medis elektronik sejak tanggal kunjungan terakhir pasien di fasilitas pelayanan kesehatan paling singkat berapa tahun?',
+    question: 'Penyimpanan data rekam medis elektronik sejak tanggal kunjungan terakhir pasien di fasilitas pelayanan kesehatan paling singkat berapa tahun?',
     options: [
       '20 tahun',
       '15 tahun',
