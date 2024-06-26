@@ -1,13 +1,13 @@
 const quizData = [
   {
-    question: 'Sumber hukum dibedakan ke dalam sumber hukum materil dan formal. Manakah yang termasuk sumber hukum formal?',
-    options: ['Yurisprudensi', 'Rekam medis', 'Saksi ahli', 'Informed consent'],
-    answer: 'Yurisprudensi',
+    question: 'Saat ini, peraturan perundang-undangan yang berlaku mengatur tentang rekam medis, yaitu:',
+    options: ['UU nomor 17 tahun 2023', '	Permenkes nomor 269 tahun 2008', 'Permenkes nomor 24 tahun 2022', '	UU nomor 36 tahun 2014'],
+    answer: 'Permenkes nomor 24 tahun 2022',
   },
   {
-    question: 'Kode diagnosa yang tepat untuk gagal ginjal kronik?',
-    options: ['N18.0', 'N18.9', 'N17.9', 'N18.5'],
-    answer: 'N18.9',
+    question: 'Menurut UU nomor 17 tahun 2023 Bab VII Bagian Kesatu tentang Pengelompokan Sumber Daya Manusia Kesehatan, Perekam medis dan informasi kesehatan termasuk dalam :',
+    options: ['Tenaga medis ', 'Tenaga kesehatan masyarakat ', 'Tenaga keteknisian medis', 'Tenaga pendukung atau penunjang kesehatan'],
+    answer: 'Tenaga keteknisian medis',
   },
   {
     question: 'Angka yang menunjukan persentase penggunaan tempat tidur yang di gunakan dalam satu periode waktu?',
@@ -58,6 +58,28 @@ const quizData = [
       'Pemerintah',
     ],
     answer: 'Faskes',
+  },
+
+  {
+    question: 'Yang tidak termasuk dalam kegiatan penyelenggaraan rekam medis elektronik adalah:',
+    options: [
+      'Registrasi pasien',
+      'Pendistribusian data rekam medis',
+      'Pengisian informasi klinis',
+      'Penyampaian hak dan kewajiban pasien',
+    ],
+    answer: 'Penyampaian hak dan kewajiban pasien',
+  },
+
+  {
+    question: '15.	Penyimpanan data rekam medis elektronik sejak tanggal kunjungan terakhir pasien di fasilitas pelayanan kesehatan paling singkat berapa tahun?',
+    options: [
+      '20 tahun',
+      '15 tahun',
+      '10 tahun',
+      '25 tahun',
+    ],
+    answer: '25 tahun',
   },
 
   {
