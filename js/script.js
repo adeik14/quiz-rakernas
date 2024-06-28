@@ -19,36 +19,13 @@ const quizData = [
     options: ['Review identifikasi', 'Review ketepatan', 'Review pencatatan', 'Review pelaporan'],
     answer: 'Review ketepatan',
   },
-  {
-    question: 'kode diagnosa untuk blight ovum adalah?',
-    options: [
-      'O20.0',
-      'O20.9',
-      'O02.0',
-      'O06.4',
-    ],
-    answer: 'O02.0',
-  },
+  
   {
     question: 'Suatu review pengisian RM yang berkaitan dengan kekonsistenan isi dan penegasannya merupakan bukti bahwa RM tersebut akurat dan lengkap adalah?',
     options: ['Analisis retrospektif', 'Analisis statistik', 'Analisis kualitatif', 'Analisis kuantitatif'],
     answer: 'Analisis kualitatif',
   },
-  {
-    question: 'untuk kepentingan hukum maka isi rekam medis dapt di buka di?',
-    options: [
-      'Kantor polisi',
-      'Kantor jaksa',
-      'Hadapan notaris',
-      'Hadapan hakim dalam sidang pengadilan',
-    ],
-    answer: 'Hadapan hakim dalam sidang pengadilan',
-  },
-  {
-    question: 'Bayi lahir dengan diagnosa icteric neonatum BBLC KB SMK Spontan, kode diagnosa utama yang tepat adalah?',
-    options: ['P59.9', 'P21.9', 'P59.8', 'P59.0'],
-    answer: 'P59.0',
-  },
+  
   {
     question: 'Berkas rekam medis adalah milik?',
     options: [
@@ -86,17 +63,6 @@ const quizData = [
     question: 'Kode etik PMIK mengatur kewajiban dan larangan yang harus dipatuhi seorang PMIK. Manakah perbuatan di bawah ini yang bertentangan dengan kode etik PMIK? ',
     options: ['Selalu memberikan salam, senyum dan sapa kepada pasien yang dilayani', 'Mendahulukan pelayanan kepada pasien tertentu karena diberi imbalan', 'Mendahulukan kepentingan pasien daripada kepentingan pribadi','Selalu datang tepat waktu saat kerja'],
     answer: 'Mendahulukan pelayanan kepada pasien tertentu karena diberi imbalan',
-  },
-
-  {
-    question: 'Seorang PMIK ditugaskan sebagai koder. Pada rekam medis ditemukan catatan diagnosa dokter yang kurang jelas. Apa yang saudara lakukan?',
-    options: [
-      'Tidak perlu dikode',
-      'Dikode dengan perkiraan',
-      'Konfirmasi dokter untuk kejelasan diagnosa',
-      'Melihat catatan dokter lain dan disimpulkan',
-    ],
-    answer: 'Konfirmasi dokter untuk kejelasan diagnosa',
   },
 
   {
@@ -141,17 +107,6 @@ const quizData = [
       'Rekaman baik yang tertulis maupun berbentuk gambar',
     ],
     answer: 'Rekaman baik yang tertulis maupun yang elektronik',
-  },
-
-  {
-    question: 'Rekam Medis pasien yang dikirim ke ruang rawat digunakan oleh pemberi pelayanan selama pasien dirawat. Selesainya perawatan RM pasien dikembalikan dalam 24 jam setelah pulang . Hal ini tepatnya dikatakan memiliki kriteria ....',
-    options: [
-      'Dapat dibaca /Legible',
-      'Dapat Dipercaya /Reliable',
-      'Tepat /Precise',
-      'Tepat waktu/Timely',
-    ],
-    answer: 'Tepat waktu/Timely',
   },
 
   {
